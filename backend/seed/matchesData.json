@@ -1,0 +1,130 @@
+[
+  {
+    "matchId": "ipl2025-m1",
+    "matchNumber": 1,
+    "opponent": "Kolkata Knight Riders",
+    "venue": "Eden Gardens, Kolkata",
+    "date": "2025-03-22T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 177, "wickets": 3, "overs": "16.2" },
+      "opponent": { "runs": 174, "wickets": 8, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 7 wickets",
+    "playerOfMatch": "Krunal Pandya"
+  },
+  {
+    "matchId": "ipl2025-m8",
+    "matchNumber": 2,
+    "opponent": "Chennai Super Kings",
+    "venue": "MA Chidambaram Stadium, Chennai",
+    "date": "2025-03-28T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 196, "wickets": 7, "overs": "20.0" },
+      "opponent": { "runs": 146, "wickets": 8, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 50 runs",
+    "playerOfMatch": "Josh Hazlewood"
+  },
+  {
+    "matchId": "ipl2025-m14",
+    "matchNumber": 3,
+    "opponent": "Gujarat Titans",
+    "venue": "M.Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-03-29T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 169, "wickets": 8, "overs": "20.0" },
+      "opponent": { "runs": 170, "wickets": 2, "overs": "17.5" }
+    },
+    "result": "Gujarat Titans won by 8 wickets",
+    "playerOfMatch": "Mohammed Siraj"
+  },
+  {
+    "matchId": "ipl2025-m20",
+    "matchNumber": 4,
+    "opponent": "Mumbai Indians",
+    "venue": "Wankhede Stadium, Mumbai",
+    "date": "2025-04-07T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 221, "wickets": 5, "overs": "20.0" },
+      "opponent": { "runs": 209, "wickets": 9, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 12 runs",
+    "playerOfMatch": "Rajat Patidar"
+  },
+  {
+    "matchId": "ipl2025-m24",
+    "matchNumber": 5,
+    "opponent": "Delhi Capitals",
+    "venue": "M.Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-04-10T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 163, "wickets": 7, "overs": "20.0" },
+      "opponent": { "runs": 169, "wickets": 4, "overs": "17.5" }
+    },
+    "result": "Delhi Capitals won by 6 wickets",
+    "playerOfMatch": "KL Rahul"
+  },
+  {
+    "matchId": "ipl2025-m28",
+    "matchNumber": 6,
+    "opponent": "Rajasthan Royals",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "date": "2025-04-13T15:30:00.000Z",
+    "time": "15:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 175, "wickets": 1, "overs": "17.3" },
+      "opponent": { "runs": 173, "wickets": 4, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 9 wickets",
+    "playerOfMatch": "Phil Salt"
+  },
+  {
+    "matchId": "ipl2025-m34",
+    "matchNumber": 7,
+    "opponent": "Punjab Kings",
+    "venue": "M.Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-04-18T21:30:00.000Z",
+    "time": "21:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 95, "wickets": 9, "overs": "14.0" },
+      "opponent": { "runs": 98, "wickets": 5, "overs": "12.1" }
+    },
+    "result": "Punjab Kings won by 5 wickets",
+    "playerOfMatch": "Tim David"
+  },
+  {
+    "matchId": "ipl2025-m37",
+    "matchNumber": 8,
+    "opponent": "Punjab Kings",
+    "venue": "Punjab Cricket Association Stadium, Mullanpur",
+    "date": "2025-04-20T15:30:00.000Z",
+    "time": "15:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 158, "wickets": 3, "overs": "17.3" },
+      "opponent": { "runs": 157, "wickets": 6, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 7 wickets",
+    "playerOfMatch": "Virat Kohli"
+  }
+]

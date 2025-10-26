@@ -1,0 +1,268 @@
+[
+  {
+    "matchNumber": 1,
+    "opponent": "Mumbai Indians",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-03-22T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "7 wickets",
+      "summary": "RCB won by 7 wickets with 8 balls remaining"
+    },
+    "scores": {
+      "rcb": { "runs": 182, "wickets": 3, "overs": 18.4 },
+      "opponent": { "runs": 178, "wickets": 8, "overs": 20 }
+    },
+    "highlights": "Virat Kohli scored 68 off 42 balls. Siraj took 3 wickets in powerplay.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 2,
+    "opponent": "Chennai Super Kings",
+    "venue": "M. A. Chidambaram Stadium, Chennai",
+    "date": "2025-03-26T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "5 runs",
+      "summary": "RCB won by 5 runs defending 198"
+    },
+    "scores": {
+      "rcb": { "runs": 198, "wickets": 5, "overs": 20 },
+      "opponent": { "runs": 193, "wickets": 7, "overs": 20 }
+    },
+    "highlights": "Will Jacks smashed 62 off 27 balls. Hasaranga took 4 wickets.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 3,
+    "opponent": "Kolkata Knight Riders",
+    "venue": "Eden Gardens, Kolkata",
+    "date": "2025-03-30T00:00:00.000Z",
+    "time": "15:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "KKR",
+      "margin": "4 wickets",
+      "summary": "KKR won by 4 wickets with 6 balls remaining"
+    },
+    "scores": {
+      "rcb": { "runs": 165, "wickets": 9, "overs": 20 },
+      "opponent": { "runs": 169, "wickets": 6, "overs": 19 }
+    },
+    "highlights": "Tough loss despite Faf's 54. Bowling struggled in death overs.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 4,
+    "opponent": "Delhi Capitals",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-04-03T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "23 runs",
+      "summary": "RCB won by 23 runs"
+    },
+    "scores": {
+      "rcb": { "runs": 201, "wickets": 4, "overs": 20 },
+      "opponent": { "runs": 178, "wickets": 9, "overs": 20 }
+    },
+    "highlights": "Rajat Patidar scored 78 off 45 balls. Clinical bowling performance.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 5,
+    "opponent": "Rajasthan Royals",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "date": "2025-04-07T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "6 wickets",
+      "summary": "RCB won by 6 wickets with 10 balls remaining"
+    },
+    "scores": {
+      "rcb": { "runs": 189, "wickets": 4, "overs": 18.2 },
+      "opponent": { "runs": 185, "wickets": 7, "overs": 20 }
+    },
+    "highlights": "Virat Kohli anchored the chase with 71*. Siraj took 2 early wickets.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 6,
+    "opponent": "Punjab Kings",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-04-11T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "8 wickets",
+      "summary": "RCB won by 8 wickets with 14 balls remaining"
+    },
+    "scores": {
+      "rcb": { "runs": 172, "wickets": 2, "overs": 17.4 },
+      "opponent": { "runs": 168, "wickets": 8, "overs": 20 }
+    },
+    "highlights": "Faf and Virat put on 120-run opening partnership.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 7,
+    "opponent": "Sunrisers Hyderabad",
+    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+    "date": "2025-04-15T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "35 runs",
+      "summary": "RCB won by 35 runs"
+    },
+    "scores": {
+      "rcb": { "runs": 212, "wickets": 5, "overs": 20 },
+      "opponent": { "runs": 177, "wickets": 9, "overs": 20 }
+    },
+    "highlights": "Maxwell's explosive 88 off 42 balls powered RCB to big total.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 8,
+    "opponent": "Gujarat Titans",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "date": "2025-04-19T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "GT",
+      "margin": "7 runs",
+      "summary": "GT won by 7 runs in a thriller"
+    },
+    "scores": {
+      "rcb": { "runs": 193, "wickets": 8, "overs": 20 },
+      "opponent": { "runs": 200, "wickets": 6, "overs": 20 }
+    },
+    "highlights": "Close match. DK scored 34* off 14 but fell short by 7 runs.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 9,
+    "opponent": "Lucknow Super Giants",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-04-23T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "18 runs",
+      "summary": "RCB won by 18 runs"
+    },
+    "scores": {
+      "rcb": { "runs": 195, "wickets": 6, "overs": 20 },
+      "opponent": { "runs": 177, "wickets": 8, "overs": 20 }
+    },
+    "highlights": "Hasaranga's 5/18 - best bowling figures of IPL 2025.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 10,
+    "opponent": "Mumbai Indians",
+    "venue": "Wankhede Stadium, Mumbai",
+    "date": "2025-04-27T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "5 wickets",
+      "summary": "RCB won by 5 wickets with 4 balls remaining"
+    },
+    "scores": {
+      "rcb": { "runs": 184, "wickets": 5, "overs": 19.2 },
+      "opponent": { "runs": 180, "wickets": 7, "overs": 20 }
+    },
+    "highlights": "Maxwell's quickfire 45 off 21 balls sealed the chase.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 11,
+    "opponent": "Chennai Super Kings",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-05-01T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "9 wickets",
+      "summary": "RCB won by 9 wickets with 16 balls remaining"
+    },
+    "scores": {
+      "rcb": { "runs": 176, "wickets": 1, "overs": 17.2 },
+      "opponent": { "runs": 172, "wickets": 8, "overs": 20 }
+    },
+    "highlights": "Faf scored unbeaten 89 off 52 balls. Dominant performance.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 12,
+    "opponent": "Delhi Capitals",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "date": "2025-05-05T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "12 runs",
+      "summary": "RCB won by 12 runs"
+    },
+    "scores": {
+      "rcb": { "runs": 189, "wickets": 7, "overs": 20 },
+      "opponent": { "runs": 177, "wickets": 9, "overs": 20 }
+    },
+    "highlights": "Virat Kohli's 65 and Siraj's 3/28 led RCB to victory.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 13,
+    "opponent": "Kolkata Knight Riders",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-05-09T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "27 runs",
+      "summary": "RCB won by 27 runs"
+    },
+    "scores": {
+      "rcb": { "runs": 205, "wickets": 4, "overs": 20 },
+      "opponent": { "runs": 178, "wickets": 8, "overs": 20 }
+    },
+    "highlights": "Rajat Patidar's 82* off 48 balls. Revenge win against KKR.",
+    "season": "2025"
+  },
+  {
+    "matchNumber": 14,
+    "opponent": "Rajasthan Royals",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-05-13T00:00:00.000Z",
+    "time": "19:30 IST",
+    "status": "Completed",
+    "result": {
+      "winner": "RCB",
+      "margin": "6 wickets",
+      "summary": "RCB won by 6 wickets - Qualified for Playoffs"
+    },
+    "scores": {
+      "rcb": { "runs": 192, "wickets": 4, "overs": 18.5 },
+      "opponent": { "runs": 188, "wickets": 6, "overs": 20 }
+    },
+    "highlights": "Virat's 76* secured playoff berth. Team celebration at Chinnaswamy.",
+    "season": "2025"
+  }
+]

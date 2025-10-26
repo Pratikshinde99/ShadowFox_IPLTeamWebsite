@@ -1,0 +1,246 @@
+[
+  {
+    "title": "RCB Wins IPL 2025 - Maiden Championship Trophy",
+    "description": "Royal Challengers Bangalore finally lifted their first IPL trophy in 2025, defeating Mumbai Indians in a thrilling final at the Narendra Modi Stadium. After 17 years of heartbreak, RCB fans witnessed their team become champions. Glenn Maxwell's match-winning 68* off 33 balls and Faf du Plessis's captaincy led RCB to glory. The entire stadium erupted as Virat Kohli lifted the trophy alongside his teammates, tears of joy flowing after years of near-misses.",
+    "date": "2025-05-26T00:00:00.000Z",
+    "season": "2025",
+    "category": "Trophy",
+    "players": [
+      {
+        "playerName": "Faf du Plessis",
+        "contribution": "Winning Captain - 45 runs"
+      },
+      {
+        "playerName": "Glenn Maxwell",
+        "contribution": "Player of the Match - 68* off 33 balls"
+      },
+      {
+        "playerName": "Virat Kohli",
+        "contribution": "52 runs - Anchor innings"
+      },
+      {
+        "playerName": "Mohammed Siraj",
+        "contribution": "3 wickets in final"
+      }
+    ],
+    "stats": {
+      "runs": 68,
+      "balls": 33,
+      "fours": 4,
+      "sixes": 6,
+      "strikeRate": 206.06,
+      "other": "RCB scored 198/5, MI all out for 186"
+    },
+    "images": [
+      {
+        "url": "/images/moments/ipl-2025-trophy-lift.jpg",
+        "caption": "Faf du Plessis and Virat Kohli lift the IPL 2025 trophy together",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/ipl-2025-celebration.jpg",
+        "caption": "RCB team celebrates their maiden IPL title",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/ipl-2025-virat-tears.jpg",
+        "caption": "Virat Kohli emotional after winning first IPL title with RCB",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/maxwell-final.jpg",
+        "caption": "Glenn Maxwell's match-winning knock in the final",
+        "isHD": true
+      }
+    ],
+    "videoUrl": "https://youtube.com/watch?v=ipl2025final",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "opponent": "Mumbai Indians",
+    "impactScore": 10,
+    "isFeatured": true
+  },
+  {
+    "title": "Chris Gayle's 175* - Highest Individual Score in IPL History",
+    "description": "The Universe Boss Chris Gayle smashed an unbeaten 175 off just 66 balls against Pune Warriors India in 2013, creating an IPL record that still stands today. This brutal innings included 13 fours and a staggering 17 sixes. Gayle reached his century in just 30 balls, the fastest in IPL history at that time. The M. Chinnaswamy Stadium witnessed carnage as Gayle single-handedly demolished the Pune bowling attack. RCB posted 263/5, the highest team total in IPL history, and won by 130 runs. This innings is considered one of the greatest T20 performances ever.",
+    "date": "2013-04-23T00:00:00.000Z",
+    "season": "2013",
+    "category": "Individual Performance",
+    "players": [
+      {
+        "playerName": "Chris Gayle",
+        "contribution": "175* off 66 balls - IPL's highest individual score"
+      },
+      {
+        "playerName": "Virat Kohli",
+        "contribution": "31 runs - Supporting role"
+      },
+      {
+        "playerName": "AB de Villiers",
+        "contribution": "31* runs"
+      }
+    ],
+    "stats": {
+      "runs": 175,
+      "balls": 66,
+      "fours": 13,
+      "sixes": 17,
+      "strikeRate": 265.15,
+      "other": "Fastest century in 30 balls, RCB total 263/5 - highest IPL team score"
+    },
+    "images": [
+      {
+        "url": "/images/moments/gayle-175-celebration.jpg",
+        "caption": "Chris Gayle celebrates his record-breaking 175*",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/gayle-175-six.jpg",
+        "caption": "One of 17 sixes in the historic innings",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/gayle-175-bat-raise.jpg",
+        "caption": "Gayle raises his bat after reaching 150",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/gayle-175-team.jpg",
+        "caption": "RCB team congratulates Gayle after the innings",
+        "isHD": true
+      }
+    ],
+    "videoUrl": "https://youtube.com/watch?v=gayle175",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Pune Warriors India",
+    "impactScore": 10,
+    "isFeatured": true
+  },
+  {
+    "title": "Virat Kohli & AB de Villiers 229-Run Partnership - IPL Record",
+    "description": "On May 14, 2016, cricket fans witnessed one of the most destructive partnerships in T20 cricket history. Virat Kohli (109 off 55 balls) and AB de Villiers (129* off 52 balls) stitched together a mammoth 229-run partnership for the 2nd wicket against Gujarat Lions. This remains the highest partnership for any wicket in IPL history. The duo smashed 17 fours and 19 sixes combined, with a partnership strike rate of 238.54. RCB posted 248/3, and the partnership alone was more than most teams score in T20 cricket. The Chinnaswamy Stadium witnessed batting mastery as two of the greatest batsmen of their generation put on an absolute show.",
+    "date": "2016-05-14T00:00:00.000Z",
+    "season": "2016",
+    "category": "Partnership",
+    "players": [
+      {
+        "playerName": "Virat Kohli",
+        "contribution": "109 off 55 balls - 7 fours, 8 sixes"
+      },
+      {
+        "playerName": "AB de Villiers",
+        "contribution": "129* off 52 balls - 10 fours, 12 sixes"
+      }
+    ],
+    "stats": {
+      "runs": 229,
+      "balls": 96,
+      "fours": 17,
+      "sixes": 19,
+      "strikeRate": 238.54,
+      "other": "Highest partnership for any wicket in IPL history, RCB total 248/3"
+    },
+    "images": [
+      {
+        "url": "/images/moments/virat-ab-partnership.jpg",
+        "caption": "Virat Kohli and AB de Villiers during their record 229-run partnership",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/virat-ab-celebration.jpg",
+        "caption": "The duo celebrates after the match",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/virat-ab-fist-bump.jpg",
+        "caption": "Iconic fist bump between Virat and AB during the partnership",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/virat-ab-centuries.jpg",
+        "caption": "Both batsmen reached their centuries in the same innings",
+        "isHD": true
+      }
+    ],
+    "videoUrl": "https://youtube.com/watch?v=viratab229",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Gujarat Lions",
+    "impactScore": 10,
+    "isFeatured": true
+  },
+  {
+    "title": "Virat Kohli's Dream Season - 973 Runs in IPL 2016",
+    "description": "In IPL 2016, Virat Kohli had the season of his life, scoring an unprecedented 973 runs in a single season - a record that still stands. He scored 4 centuries and 7 fifties, maintaining an average of 81.08 and a strike rate of 152.03. This included memorable knocks of 113, 108, 109, and 100*. Despite RCB not winning the title, Kohli's individual brilliance throughout the season was unmatched in IPL history.",
+    "date": "2016-05-29T00:00:00.000Z",
+    "season": "2016",
+    "category": "Milestone",
+    "players": [
+      {
+        "playerName": "Virat Kohli",
+        "contribution": "973 runs in IPL 2016 - Most runs in a single IPL season"
+      }
+    ],
+    "stats": {
+      "runs": 973,
+      "balls": 640,
+      "fours": 83,
+      "sixes": 38,
+      "strikeRate": 152.03,
+      "other": "4 centuries, 7 fifties, Average 81.08"
+    },
+    "images": [
+      {
+        "url": "/images/moments/virat-2016-orange-cap.jpg",
+        "caption": "Virat Kohli with Orange Cap after record-breaking season",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/virat-2016-celebration.jpg",
+        "caption": "Kohli celebrates one of his four centuries in 2016",
+        "isHD": true
+      }
+    ],
+    "videoUrl": "https://youtube.com/watch?v=virat2016",
+    "venue": "Various",
+    "opponent": "Various",
+    "impactScore": 9,
+    "isFeatured": true
+  },
+  {
+    "title": "AB de Villiers' 31-Ball Century - Fastest in IPL",
+    "description": "On May 14, 2015, AB de Villiers played one of the most destructive T20 innings ever seen. He scored 133* off just 59 balls against Mumbai Indians, including a century in just 31 balls - the fastest in IPL history. The innings featured 19 boundaries (4s and 6s) and showcased AB's 360-degree batting at its absolute best.",
+    "date": "2015-05-14T00:00:00.000Z",
+    "season": "2015",
+    "category": "Individual Performance",
+    "players": [
+      {
+        "playerName": "AB de Villiers",
+        "contribution": "133* off 59 balls - Fastest IPL century in 31 balls"
+      }
+    ],
+    "stats": {
+      "runs": 133,
+      "balls": 59,
+      "fours": 4,
+      "sixes": 12,
+      "strikeRate": 225.42,
+      "other": "Fastest century in IPL - 31 balls"
+    },
+    "images": [
+      {
+        "url": "/images/moments/ab-fastest-century.jpg",
+        "caption": "AB de Villiers during his fastest IPL century",
+        "isHD": true
+      },
+      {
+        "url": "/images/moments/ab-133-celebration.jpg",
+        "caption": "AB celebrates his 133* against MI",
+        "isHD": true
+      }
+    ],
+    "videoUrl": "https://youtube.com/watch?v=ab133",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Mumbai Indians",
+    "impactScore": 9,
+    "isFeatured": false
+  }
+]

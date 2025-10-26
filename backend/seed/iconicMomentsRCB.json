@@ -1,0 +1,262 @@
+[
+  {
+    "momentId": "gayle-175",
+    "title": "Chris Gayle's 175* - Highest T20 Score Ever",
+    "shortTitle": "Gayle's 175*",
+    "date": "2013-04-23T00:00:00.000Z",
+    "season": "2013",
+    "opponent": "Pune Warriors India",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "category": "batting",
+    "description": "Chris Gayle's record T20 knock — 175* (66) — still the highest individual T20 score. The Universe Boss smashed 13 fours and 17 sixes in the most explosive innings in IPL history. RCB posted 263/5, the highest team total in IPL.",
+    "stats": {
+      "runs": 175,
+      "balls": 66,
+      "fours": 13,
+      "sixes": 17,
+      "strikeRate": 265.15
+    },
+    "highlights": [
+      "Highest individual score in T20 cricket",
+      "Fastest IPL century (30 balls)",
+      "17 sixes - most in an IPL innings",
+      "RCB's highest team total: 263/5"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/gayle-175.jpg",
+        "caption": "Chris Gayle celebrating his record 175*",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2013/rcb-vs-pwi",
+    "videoUrl": "https://www.youtube.com/watch?v=jX6CKPkZOQo",
+    "impactScore": 10,
+    "isFeatured": true,
+    "tags": ["batting", "record", "gayle", "2013", "century"]
+  },
+  {
+    "momentId": "kohli-973-2016",
+    "title": "Virat Kohli's 973 Runs - IPL 2016 Record Season",
+    "shortTitle": "Kohli's 973 Runs",
+    "date": "2016-05-29T00:00:00.000Z",
+    "season": "2016",
+    "opponent": "Various",
+    "venue": "Various",
+    "category": "batting",
+    "description": "Kohli's record-breaking 2016 season — 973 runs (most runs in a single IPL season). Virat scored 4 centuries and 7 fifties with an average of 81.08 and strike rate of 152.03. This remains the highest run aggregate in any IPL season.",
+    "stats": {
+      "runs": 973,
+      "matches": 16,
+      "average": 81.08,
+      "strikeRate": 152.03,
+      "centuries": 4,
+      "fifties": 7
+    },
+    "highlights": [
+      "Most runs in a single IPL season (973)",
+      "4 centuries in one season - IPL record",
+      "7 fifties - consistency throughout",
+      "Orange Cap winner 2016",
+      "Average of 81.08"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/kohli-2016.jpg",
+        "caption": "Virat Kohli with Orange Cap after record season",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2016/statistics",
+    "videoUrl": "https://www.iplt20.com/stats/2016",
+    "impactScore": 10,
+    "isFeatured": true,
+    "tags": ["batting", "record", "kohli", "2016", "orange-cap"]
+  },
+  {
+    "momentId": "ab-devilliers-magic",
+    "title": "AB de Villiers - The 360° Genius",
+    "shortTitle": "AB's Magic",
+    "date": "2015-05-14T00:00:00.000Z",
+    "season": "2015",
+    "opponent": "Mumbai Indians",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "category": "batting",
+    "description": "AB de Villiers — jaw-dropping innovations & match-winning innings (multiple seasons) — a fan favourite. His 133* off 59 balls included the fastest IPL century (31 balls). AB's 360-degree batting and innovative shots redefined T20 cricket.",
+    "stats": {
+      "runs": 133,
+      "balls": 59,
+      "fours": 4,
+      "sixes": 12,
+      "strikeRate": 225.42,
+      "fastestCentury": "31 balls"
+    },
+    "highlights": [
+      "Fastest IPL century - 31 balls",
+      "133* off 59 balls vs MI",
+      "360-degree batting innovation",
+      "Multiple match-winning knocks",
+      "Fan favourite across seasons"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/ab-devilliers.jpg",
+        "caption": "AB de Villiers during his fastest IPL century",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2015/rcb-vs-mi",
+    "videoUrl": "https://www.iplt20.com/video/139234/spiderman-superman-ab-man",
+    "impactScore": 9,
+    "isFeatured": true,
+    "tags": ["batting", "ab-devilliers", "innovation", "century"]
+  },
+  {
+    "momentId": "kohli-ab-partnerships",
+    "title": "Virat-AB Partnerships - The Dream Duo",
+    "shortTitle": "Virat-AB Duo",
+    "date": "2016-05-14T00:00:00.000Z",
+    "season": "2016",
+    "opponent": "Gujarat Lions",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "category": "partnership",
+    "description": "Kohli & AB: partnerships that defined RCB's batting era — many matches decided by their stands. Their 229-run partnership (highest in IPL) featured Kohli's 109 and AB's 129*. Together they scored over 3000 runs for RCB.",
+    "stats": {
+      "partnership": 229,
+      "kohliRuns": 109,
+      "abRuns": 129,
+      "totalSixes": 19,
+      "totalFours": 17
+    },
+    "highlights": [
+      "229-run partnership - Highest in IPL",
+      "Both scored centuries in same innings",
+      "19 sixes combined",
+      "RCB posted 248/3",
+      "Defined RCB's golden era"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/virat-ab-partnership.jpg",
+        "caption": "Virat and AB during their record 229-run stand",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2016/rcb-vs-gl",
+    "videoUrl": "https://www.youtube.com/watch?v=pi9Mfb5bVCY",
+    "impactScore": 10,
+    "isFeatured": true,
+    "tags": ["partnership", "kohli", "ab-devilliers", "record", "2016"]
+  },
+  {
+    "momentId": "rcb-2025-away-wins",
+    "title": "IPL 2025 - Historic Away Dominance",
+    "shortTitle": "2025 Away Streak",
+    "date": "2025-05-27T00:00:00.000Z",
+    "season": "2025",
+    "opponent": "Lucknow Super Giants",
+    "venue": "Various",
+    "category": "team",
+    "description": "Historic 2025 away chases — RCB recorded franchise-record chases and became the first team to win all seven away matches in a season. The historic 219/4 chase vs LSG was the highest successful chase in IPL 2025.",
+    "stats": {
+      "awayWins": 7,
+      "highestChase": 219,
+      "totalAwayMatches": 7,
+      "winPercentage": 100
+    },
+    "highlights": [
+      "Won all 7 away matches - IPL first",
+      "Highest chase: 219/4 vs LSG",
+      "Franchise-record away dominance",
+      "Virat Kohli 102* in historic chase",
+      "Phil Salt 88 in same match"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/rcb-2025-chase.jpg",
+        "caption": "Virat Kohli's 102* in record chase",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://timesofindia.indiatimes.com/sports/cricket/ipl/rcb-2025-away-wins",
+    "videoUrl": "https://www.hotstar.com/in/sports/cricket/lsg-vs-rcb-highlights/1540043320/video/highlights/watch",
+    "impactScore": 9,
+    "isFeatured": true,
+    "tags": ["team", "2025", "record", "chase", "away-wins"]
+  },
+  {
+    "momentId": "rcb-ipl-2025-champions",
+    "title": "RCB Wins IPL 2025 - Ee Sala Cup Namde!",
+    "shortTitle": "IPL 2025 Champions",
+    "date": "2025-06-03T00:00:00.000Z",
+    "season": "2025",
+    "opponent": "Punjab Kings",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "category": "championship",
+    "description": "After 18 years, RCB lift their first IPL trophy — emotional scenes as Kohli & fans celebrate. RCB beat PBKS by 6 runs in a thrilling final. Virat Kohli (68), Rajat Patidar (52), and Bhuvneshwar Kumar (3/36) led RCB to their maiden title. EE SALA CUP NAMDE finally came true!",
+    "stats": {
+      "finalScore": "190/9 vs 184/7",
+      "margin": "6 runs",
+      "kohliRuns": 68,
+      "patidarRuns": 52,
+      "bhuviWickets": 3
+    },
+    "highlights": [
+      "RCB's first IPL title after 18 years",
+      "Beat PBKS by 6 runs in final",
+      "Virat Kohli 68 in final",
+      "Rajat Patidar captained to glory",
+      "Emotional celebrations at Ahmedabad",
+      "Ee Sala Cup Namde finally realized"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/rcb-trophy-2025.jpg",
+        "caption": "RCB lifts the IPL 2025 trophy - First title!",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://economictimes.indiatimes.com/sports/cricket/ipl/rcb-wins-ipl-2025",
+    "videoUrl": "https://www.iplt20.com/video/63960",
+    "impactScore": 10,
+    "isFeatured": true,
+    "isChampionship": true,
+    "tags": ["championship", "2025", "trophy", "final", "ee-sala-cup-namde"]
+  },
+  {
+    "momentId": "rcb-fan-culture",
+    "title": "Ee Sala Cup Namde - The Fan Culture",
+    "shortTitle": "Fan Culture",
+    "date": "2025-06-03T00:00:00.000Z",
+    "season": "2025",
+    "opponent": "Various",
+    "venue": "M. Chinnaswamy Stadium & Worldwide",
+    "category": "fans",
+    "description": "Ee Sala Cup Namde chants, fan parades and iconic images across the years. RCB's fan base is one of the most passionate in cricket. From the sea of red at Chinnaswamy to global fan celebrations, RCB fans have stood by the team through thick and thin. The 2025 title win was celebrated worldwide.",
+    "stats": {
+      "fanBase": "50+ million",
+      "chinnaswamyCapacity": 40000,
+      "socialMediaFollowers": "15+ million",
+      "yearsOfSupport": 18
+    },
+    "highlights": [
+      "Ee Sala Cup Namde - iconic chant",
+      "Sea of red at Chinnaswamy",
+      "Global fan celebrations",
+      "18 years of unwavering support",
+      "Most passionate fanbase in IPL"
+    ],
+    "images": [
+      {
+        "path": "/images/moments/rcb-fans.jpg",
+        "caption": "Sea of red at M. Chinnaswamy Stadium",
+        "isHero": true
+      }
+    ],
+    "sourceUrl": "https://www.instagram.com/royalchallengers",
+    "videoUrl": "https://www.youtube.com/playlist?list=PLyn3ph7Iw4XBH9bKZ0jf3-YIp-N84leUk",
+    "impactScore": 8,
+    "isFeatured": true,
+    "tags": ["fans", "culture", "ee-sala-cup-namde", "celebration"]
+  }
+]

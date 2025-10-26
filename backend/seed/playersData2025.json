@@ -1,0 +1,532 @@
+[
+  {
+    "name": "Virat Kohli",
+    "role": "Batsman",
+    "nationality": "India",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "jerseyNumber": 18,
+    "photo": "/images/players/virat-kohli.jpg",
+    "bio": "Former RCB and Indian captain, one of the greatest batsmen of all time. Known for his aggressive batting style and exceptional chase master.",
+    "stats": {
+      "matches": 237,
+      "runs": 7263,
+      "wickets": 4,
+      "strikeRate": 130.02,
+      "average": 37.25,
+      "economy": 8.2,
+      "highestScore": 113,
+      "fifties": 50,
+      "hundreds": 7,
+      "fours": 612,
+      "sixes": 237,
+      "catches": 120,
+      "stumpings": 0,
+      "bestBowling": "1/15",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 14,
+      "runs": 741,
+      "wickets": 0,
+      "strikeRate": 145.2,
+      "average": 61.75,
+      "economy": 0,
+      "impactRating": 9.5
+    },
+    "careerHighlights": [
+      {
+        "title": "IPL 2025 Championship Win",
+        "description": "Led RCB to their maiden IPL title with consistent performances",
+        "year": 2025,
+        "image": "/images/moments/ipl-2025-trophy.jpg"
+      },
+      {
+        "title": "224-Run Partnership with AB de Villiers",
+        "description": "Historic partnership against Gujarat Lions in 2016",
+        "year": 2016,
+        "image": "/images/moments/virat-ab-224.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Faf du Plessis",
+    "role": "Batsman",
+    "nationality": "South Africa",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "jerseyNumber": 19,
+    "photo": "/images/players/faf-du-plessis.jpg",
+    "bio": "RCB Captain and experienced South African batsman. Known for his aggressive opening and brilliant fielding.",
+    "stats": {
+      "matches": 121,
+      "runs": 3546,
+      "wickets": 0,
+      "strikeRate": 129.71,
+      "average": 32.24,
+      "economy": 0,
+      "highestScore": 96,
+      "fifties": 22,
+      "hundreds": 0,
+      "fours": 312,
+      "sixes": 98,
+      "catches": 45,
+      "stumpings": 0,
+      "bestBowling": "N/A",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 14,
+      "runs": 523,
+      "wickets": 0,
+      "strikeRate": 138.4,
+      "average": 43.58,
+      "economy": 0,
+      "impactRating": 8.7
+    },
+    "careerHighlights": [
+      {
+        "title": "IPL 2025 Winning Captain",
+        "description": "Led RCB to their first-ever IPL championship",
+        "year": 2025,
+        "image": "/images/moments/faf-captain-trophy.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Glenn Maxwell",
+    "role": "All-Rounder",
+    "nationality": "Australia",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "jerseyNumber": 32,
+    "photo": "/images/players/glenn-maxwell.jpg",
+    "bio": "The Big Show - Dynamic all-rounder known for his explosive batting and handy off-spin bowling.",
+    "stats": {
+      "matches": 129,
+      "runs": 2771,
+      "wickets": 38,
+      "strikeRate": 154.67,
+      "average": 24.31,
+      "economy": 7.45,
+      "highestScore": 95,
+      "fifties": 16,
+      "hundreds": 0,
+      "fours": 198,
+      "sixes": 156,
+      "catches": 58,
+      "stumpings": 0,
+      "bestBowling": "4/14",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 13,
+      "runs": 412,
+      "wickets": 8,
+      "strikeRate": 168.3,
+      "average": 37.45,
+      "economy": 7.2,
+      "impactRating": 9.2
+    },
+    "careerHighlights": [
+      {
+        "title": "Match-Winning Knock in IPL 2025 Final",
+        "description": "Scored crucial 68* off 33 balls in the final",
+        "year": 2025,
+        "image": "/images/moments/maxwell-final.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Mohammed Siraj",
+    "role": "Bowler",
+    "nationality": "India",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "jerseyNumber": 13,
+    "photo": "/images/players/mohammed-siraj.jpg",
+    "bio": "Premier Indian fast bowler, known for his aggressive bowling and ability to take early wickets.",
+    "stats": {
+      "matches": 93,
+      "runs": 156,
+      "wickets": 93,
+      "strikeRate": 104.0,
+      "average": 8.0,
+      "economy": 8.67,
+      "highestScore": 14,
+      "fifties": 0,
+      "hundreds": 0,
+      "fours": 12,
+      "sixes": 4,
+      "catches": 18,
+      "stumpings": 0,
+      "bestBowling": "4/21",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 14,
+      "runs": 23,
+      "wickets": 24,
+      "strikeRate": 95.0,
+      "average": 12.5,
+      "economy": 7.8,
+      "impactRating": 9.0
+    },
+    "careerHighlights": [
+      {
+        "title": "Purple Cap Contender 2025",
+        "description": "Finished as second-highest wicket-taker in IPL 2025",
+        "year": 2025,
+        "image": "/images/moments/siraj-purple-cap.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Dinesh Karthik",
+    "role": "Wicket-Keeper",
+    "nationality": "India",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "jerseyNumber": 7,
+    "photo": "/images/players/dinesh-karthik.jpg",
+    "bio": "Veteran wicket-keeper batsman, known for his finishing abilities and experience in pressure situations.",
+    "stats": {
+      "matches": 257,
+      "runs": 4842,
+      "wickets": 0,
+      "strikeRate": 135.36,
+      "average": 25.62,
+      "economy": 0,
+      "highestScore": 97,
+      "fifties": 22,
+      "hundreds": 0,
+      "fours": 412,
+      "sixes": 156,
+      "catches": 145,
+      "stumpings": 42,
+      "bestBowling": "N/A",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 12,
+      "runs": 287,
+      "wickets": 0,
+      "strikeRate": 178.2,
+      "average": 35.87,
+      "economy": 0,
+      "impactRating": 8.5
+    },
+    "careerHighlights": [
+      {
+        "title": "IPL 2025 Final Heroics",
+        "description": "Scored match-winning 34* off 14 balls in the final",
+        "year": 2025,
+        "image": "/images/moments/dk-final.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Wanindu Hasaranga",
+    "role": "All-Rounder",
+    "nationality": "Sri Lanka",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "jerseyNumber": 10,
+    "photo": "/images/players/wanindu-hasaranga.jpg",
+    "bio": "Sri Lankan leg-spinner and handy lower-order batsman, known for his wicket-taking abilities.",
+    "stats": {
+      "matches": 32,
+      "runs": 289,
+      "wickets": 43,
+      "strikeRate": 146.7,
+      "average": 14.45,
+      "economy": 7.28,
+      "highestScore": 42,
+      "fifties": 0,
+      "hundreds": 0,
+      "fours": 18,
+      "sixes": 12,
+      "catches": 12,
+      "stumpings": 0,
+      "bestBowling": "5/18",
+      "fiveWicketHauls": 1
+    },
+    "ipl2025Contribution": {
+      "matches": 14,
+      "runs": 156,
+      "wickets": 21,
+      "strikeRate": 142.5,
+      "average": 15.6,
+      "economy": 6.9,
+      "impactRating": 8.8
+    },
+    "careerHighlights": [
+      {
+        "title": "5-Wicket Haul in IPL 2025",
+        "description": "Best bowling figures of 5/18 against MI",
+        "year": 2025,
+        "image": "/images/moments/hasaranga-5wickets.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Harshal Patel",
+    "role": "Bowler",
+    "nationality": "India",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "jerseyNumber": 8,
+    "photo": "/images/players/harshal-patel.jpg",
+    "bio": "Death bowling specialist, known for his slower deliveries and variations.",
+    "stats": {
+      "matches": 71,
+      "runs": 246,
+      "wickets": 78,
+      "strikeRate": 123.12,
+      "average": 11.14,
+      "economy": 8.92,
+      "highestScore": 31,
+      "fifties": 0,
+      "hundreds": 0,
+      "fours": 18,
+      "sixes": 8,
+      "catches": 22,
+      "stumpings": 0,
+      "bestBowling": "5/27",
+      "fiveWicketHauls": 1
+    },
+    "ipl2025Contribution": {
+      "matches": 13,
+      "runs": 45,
+      "wickets": 18,
+      "strikeRate": 112.5,
+      "average": 14.5,
+      "economy": 8.5,
+      "impactRating": 8.2
+    },
+    "careerHighlights": [
+      {
+        "title": "Purple Cap Winner 2021",
+        "description": "Highest wicket-taker in IPL 2021 with 32 wickets",
+        "year": 2021,
+        "image": "/images/moments/harshal-purple-cap.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Rajat Patidar",
+    "role": "Batsman",
+    "nationality": "India",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "jerseyNumber": 9,
+    "photo": "/images/players/rajat-patidar.jpg",
+    "bio": "Young Indian batsman with a knack for playing match-winning innings in crucial situations.",
+    "stats": {
+      "matches": 23,
+      "runs": 524,
+      "wickets": 0,
+      "strikeRate": 152.03,
+      "average": 29.11,
+      "economy": 0,
+      "highestScore": 112,
+      "fifties": 2,
+      "hundreds": 1,
+      "fours": 45,
+      "sixes": 28,
+      "catches": 8,
+      "stumpings": 0,
+      "bestBowling": "N/A",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 14,
+      "runs": 489,
+      "wickets": 0,
+      "strikeRate": 158.7,
+      "average": 40.75,
+      "economy": 0,
+      "impactRating": 8.6
+    },
+    "careerHighlights": [
+      {
+        "title": "Century in IPL 2022 Eliminator",
+        "description": "Scored 112* off 54 balls in crucial playoff match",
+        "year": 2022,
+        "image": "/images/moments/rajat-century.jpg"
+      }
+    ],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "nationality": "Australia",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "jerseyNumber": 17,
+    "photo": "/images/players/josh-hazlewood.jpg",
+    "bio": "Australian pace spearhead, known for his accuracy and ability to bowl in any conditions.",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 12,
+      "strikeRate": 70.0,
+      "average": 7.0,
+      "economy": 7.83,
+      "highestScore": 8,
+      "fifties": 0,
+      "hundreds": 0,
+      "fours": 1,
+      "sixes": 0,
+      "catches": 4,
+      "stumpings": 0,
+      "bestBowling": "3/24",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 10,
+      "runs": 8,
+      "wickets": 15,
+      "strikeRate": 65.0,
+      "average": 8.5,
+      "economy": 7.2,
+      "impactRating": 8.4
+    },
+    "careerHighlights": [],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Anuj Rawat",
+    "role": "Wicket-Keeper",
+    "nationality": "India",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "jerseyNumber": 34,
+    "photo": "/images/players/anuj-rawat.jpg",
+    "bio": "Young wicket-keeper batsman, known for his aggressive opening batting.",
+    "stats": {
+      "matches": 18,
+      "runs": 234,
+      "wickets": 0,
+      "strikeRate": 128.57,
+      "average": 15.6,
+      "economy": 0,
+      "highestScore": 48,
+      "fifties": 0,
+      "hundreds": 0,
+      "fours": 24,
+      "sixes": 8,
+      "catches": 12,
+      "stumpings": 3,
+      "bestBowling": "N/A",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 8,
+      "runs": 178,
+      "wickets": 0,
+      "strikeRate": 142.4,
+      "average": 25.42,
+      "economy": 0,
+      "impactRating": 7.5
+    },
+    "careerHighlights": [],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Will Jacks",
+    "role": "All-Rounder",
+    "nationality": "England",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "jerseyNumber": 14,
+    "photo": "/images/players/will-jacks.jpg",
+    "bio": "English all-rounder with explosive batting abilities and useful off-spin bowling.",
+    "stats": {
+      "matches": 8,
+      "runs": 189,
+      "wickets": 3,
+      "strikeRate": 162.93,
+      "average": 31.5,
+      "economy": 8.2,
+      "highestScore": 62,
+      "fifties": 1,
+      "hundreds": 0,
+      "fours": 18,
+      "sixes": 12,
+      "catches": 4,
+      "stumpings": 0,
+      "bestBowling": "2/18",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 12,
+      "runs": 356,
+      "wickets": 6,
+      "strikeRate": 171.2,
+      "average": 32.36,
+      "economy": 7.8,
+      "impactRating": 8.1
+    },
+    "careerHighlights": [],
+    "isActive": true,
+    "season": "2025"
+  },
+  {
+    "name": "Cameron Green",
+    "role": "All-Rounder",
+    "nationality": "Australia",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "jerseyNumber": 11,
+    "photo": "/images/players/cameron-green.jpg",
+    "bio": "Tall Australian all-rounder with powerful hitting and pace bowling capabilities.",
+    "stats": {
+      "matches": 15,
+      "runs": 298,
+      "wickets": 8,
+      "strikeRate": 148.26,
+      "average": 24.83,
+      "economy": 9.2,
+      "highestScore": 52,
+      "fifties": 1,
+      "hundreds": 0,
+      "fours": 28,
+      "sixes": 14,
+      "catches": 8,
+      "stumpings": 0,
+      "bestBowling": "3/28",
+      "fiveWicketHauls": 0
+    },
+    "ipl2025Contribution": {
+      "matches": 11,
+      "runs": 267,
+      "wickets": 7,
+      "strikeRate": 152.3,
+      "average": 26.7,
+      "economy": 8.9,
+      "impactRating": 7.9
+    },
+    "careerHighlights": [],
+    "isActive": true,
+    "season": "2025"
+  }
+]

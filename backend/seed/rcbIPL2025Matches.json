@@ -1,0 +1,471 @@
+[
+  {
+    "matchId": "ipl2025-m1",
+    "matchNumber": 1,
+    "date": "2025-03-22T19:30:00.000Z",
+    "venue": "Eden Gardens, Kolkata",
+    "opponent": "Kolkata Knight Riders",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "RCB won by 7 wickets",
+    "ourScore": {
+      "runs": 177,
+      "wickets": 3,
+      "overs": "16.2"
+    },
+    "theirScore": {
+      "runs": 174,
+      "wickets": 8,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Virat Kohli 68*, Rajat Patidar 45. RCB chased down 175 comfortably.",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "68* (42)" },
+      { "name": "Rajat Patidar", "performance": "45 (28)" },
+      { "name": "Yash Dayal", "performance": "3/32" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/rcb-vs-kkr",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m2",
+    "matchNumber": 2,
+    "date": "2025-03-28T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Chennai Super Kings",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "RCB won by 50 runs",
+    "ourScore": {
+      "runs": 196,
+      "wickets": 7,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 146,
+      "wickets": 8,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Phil Salt 72 (38), Bhuvneshwar Kumar 3/28. Dominant home win.",
+    "topPerformers": [
+      { "name": "Phil Salt", "performance": "72 (38)" },
+      { "name": "Liam Livingstone", "performance": "48 (25)" },
+      { "name": "Bhuvneshwar Kumar", "performance": "3/28" }
+    ],
+    "sourceUrl": "https://www.mykhel.com/ipl-2025/rcb-vs-csk",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m3",
+    "matchNumber": 3,
+    "date": "2025-04-02T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Gujarat Titans",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "GT won by 6 wickets",
+    "ourScore": {
+      "runs": 168,
+      "wickets": 9,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 172,
+      "wickets": 4,
+      "overs": "18.3"
+    },
+    "status": "completed",
+    "highlights": "GT chased down 169. RCB's first loss of the season.",
+    "topPerformers": [
+      { "name": "Rajat Patidar", "performance": "52 (34)" },
+      { "name": "Josh Hazlewood", "performance": "2/35" }
+    ],
+    "sourceUrl": "https://www.mykhel.com/ipl-2025/rcb-vs-gt",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m4",
+    "matchNumber": 4,
+    "date": "2025-04-07T19:30:00.000Z",
+    "venue": "Wankhede Stadium, Mumbai",
+    "opponent": "Mumbai Indians",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "RCB won by 12 runs",
+    "ourScore": {
+      "runs": 189,
+      "wickets": 6,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 177,
+      "wickets": 8,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Virat Kohli 81, Krunal Pandya 3/29. RCB defended 190.",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "81 (48)" },
+      { "name": "Tim David", "performance": "38* (18)" },
+      { "name": "Krunal Pandya", "performance": "3/29" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/mi-vs-rcb",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m5",
+    "matchNumber": 5,
+    "date": "2025-04-12T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Delhi Capitals",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "RCB won by 8 wickets",
+    "ourScore": {
+      "runs": 178,
+      "wickets": 2,
+      "overs": "17.4"
+    },
+    "theirScore": {
+      "runs": 174,
+      "wickets": 7,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Phil Salt 89*, Virat Kohli 62*. 150-run opening partnership.",
+    "topPerformers": [
+      { "name": "Phil Salt", "performance": "89* (45)" },
+      { "name": "Virat Kohli", "performance": "62* (38)" },
+      { "name": "Josh Hazlewood", "performance": "3/31" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/rcb-vs-dc",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m6",
+    "matchNumber": 6,
+    "date": "2025-04-17T19:30:00.000Z",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "opponent": "Rajasthan Royals",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "RCB won by 5 wickets",
+    "ourScore": {
+      "runs": 195,
+      "wickets": 5,
+      "overs": "19.1"
+    },
+    "theirScore": {
+      "runs": 192,
+      "wickets": 6,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Liam Livingstone 67 (31), Rajat Patidar 58. Thrilling chase.",
+    "topPerformers": [
+      { "name": "Liam Livingstone", "performance": "67 (31)" },
+      { "name": "Rajat Patidar", "performance": "58 (36)" },
+      { "name": "Bhuvneshwar Kumar", "performance": "2/38" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/rr-vs-rcb",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m7",
+    "matchNumber": 7,
+    "date": "2025-04-22T19:30:00.000Z",
+    "venue": "IS Bindra Stadium, Mohali",
+    "opponent": "Punjab Kings",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "RCB won by 7 wickets",
+    "ourScore": {
+      "runs": 183,
+      "wickets": 3,
+      "overs": "18.2"
+    },
+    "theirScore": {
+      "runs": 179,
+      "wickets": 8,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Virat Kohli 76*, Jitesh Sharma 42. Clinical chase.",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "76* (44)" },
+      { "name": "Jitesh Sharma", "performance": "42 (24)" },
+      { "name": "Yash Dayal", "performance": "3/34" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/pbks-vs-rcb",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m8",
+    "matchNumber": 8,
+    "date": "2025-04-27T19:30:00.000Z",
+    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+    "opponent": "Sunrisers Hyderabad",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "SRH won by 8 runs",
+    "ourScore": {
+      "runs": 192,
+      "wickets": 9,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 200,
+      "wickets": 5,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Close loss. RCB fell short chasing 201.",
+    "topPerformers": [
+      { "name": "Rajat Patidar", "performance": "64 (38)" },
+      { "name": "Tim David", "performance": "45 (22)" },
+      { "name": "Josh Hazlewood", "performance": "2/42" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/srh-vs-rcb",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m9",
+    "matchNumber": 9,
+    "date": "2025-05-02T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Mumbai Indians",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "RCB won by 6 wickets",
+    "ourScore": {
+      "runs": 187,
+      "wickets": 4,
+      "overs": "18.5"
+    },
+    "theirScore": {
+      "runs": 183,
+      "wickets": 7,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Phil Salt 78, Liam Livingstone 52*. Comfortable win.",
+    "topPerformers": [
+      { "name": "Phil Salt", "performance": "78 (42)" },
+      { "name": "Liam Livingstone", "performance": "52* (28)" },
+      { "name": "Krunal Pandya", "performance": "2/31" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/rcb-vs-mi",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m10",
+    "matchNumber": 10,
+    "date": "2025-05-07T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Kolkata Knight Riders",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "RCB won by 9 wickets",
+    "ourScore": {
+      "runs": 176,
+      "wickets": 1,
+      "overs": "16.4"
+    },
+    "theirScore": {
+      "runs": 172,
+      "wickets": 8,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Virat Kohli 92*, Phil Salt 68. Dominant opening stand.",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "92* (48)" },
+      { "name": "Phil Salt", "performance": "68 (35)" },
+      { "name": "Bhuvneshwar Kumar", "performance": "3/29" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/rcb-vs-kkr",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m11",
+    "matchNumber": 11,
+    "date": "2025-05-12T19:30:00.000Z",
+    "venue": "M. A. Chidambaram Stadium, Chennai",
+    "opponent": "Chennai Super Kings",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "CSK won by 4 wickets",
+    "ourScore": {
+      "runs": 178,
+      "wickets": 7,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 182,
+      "wickets": 6,
+      "overs": "19.3"
+    },
+    "status": "completed",
+    "highlights": "CSK chased down 179. Close match at Chepauk.",
+    "topPerformers": [
+      { "name": "Rajat Patidar", "performance": "61 (39)" },
+      { "name": "Jitesh Sharma", "performance": "38 (22)" },
+      { "name": "Josh Hazlewood", "performance": "2/36" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/csk-vs-rcb",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m12",
+    "matchNumber": 12,
+    "date": "2025-05-17T19:30:00.000Z",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "opponent": "Delhi Capitals",
+    "homeAway": "away",
+    "matchType": "league",
+    "result": "RCB won by 15 runs",
+    "ourScore": {
+      "runs": 198,
+      "wickets": 5,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 183,
+      "wickets": 9,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Virat Kohli 85, Yash Dayal 4/28. Big away win.",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "85 (49)" },
+      { "name": "Tim David", "performance": "42 (19)" },
+      { "name": "Yash Dayal", "performance": "4/28" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/dc-vs-rcb",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m13",
+    "matchNumber": 13,
+    "date": "2025-05-22T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Rajasthan Royals",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "RCB won by 23 runs",
+    "ourScore": {
+      "runs": 205,
+      "wickets": 6,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 182,
+      "wickets": 8,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Phil Salt 94, Rajat Patidar 56. Big total defended.",
+    "topPerformers": [
+      { "name": "Phil Salt", "performance": "94 (46)" },
+      { "name": "Rajat Patidar", "performance": "56 (32)" },
+      { "name": "Bhuvneshwar Kumar", "performance": "3/34" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/rcb-vs-rr",
+    "season": "2025"
+  },
+  {
+    "matchId": "ipl2025-m14",
+    "matchNumber": 14,
+    "date": "2025-05-27T19:30:00.000Z",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "opponent": "Lucknow Super Giants",
+    "homeAway": "home",
+    "matchType": "league",
+    "result": "RCB won by 6 wickets - Historic Chase",
+    "ourScore": {
+      "runs": 219,
+      "wickets": 4,
+      "overs": "19.2"
+    },
+    "theirScore": {
+      "runs": 215,
+      "wickets": 5,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "HISTORIC! Virat Kohli 102*, Phil Salt 88. Highest successful chase in IPL 2025.",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "102* (51)" },
+      { "name": "Phil Salt", "performance": "88 (42)" },
+      { "name": "Liam Livingstone", "performance": "2/38" }
+    ],
+    "sourceUrl": "https://www.mykhel.com/ipl-2025/rcb-vs-lsg-match-70",
+    "season": "2025",
+    "isSpecial": true,
+    "specialNote": "Highest successful chase in IPL 2025"
+  },
+  {
+    "matchId": "ipl2025-qualifier1",
+    "matchNumber": 15,
+    "date": "2025-05-30T19:30:00.000Z",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "opponent": "Punjab Kings",
+    "homeAway": "neutral",
+    "matchType": "qualifier",
+    "result": "RCB won by 8 wickets - Qualified for Final",
+    "ourScore": {
+      "runs": 182,
+      "wickets": 2,
+      "overs": "17.5"
+    },
+    "theirScore": {
+      "runs": 178,
+      "wickets": 7,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "Rajat Patidar 78*, Virat Kohli 71. RCB storm into IPL 2025 Final!",
+    "topPerformers": [
+      { "name": "Rajat Patidar", "performance": "78* (42)" },
+      { "name": "Virat Kohli", "performance": "71 (45)" },
+      { "name": "Josh Hazlewood", "performance": "3/32" }
+    ],
+    "sourceUrl": "https://www.mykhel.com/ipl-2025/qualifier-1",
+    "season": "2025",
+    "isPlayoff": true
+  },
+  {
+    "matchId": "ipl2025-final",
+    "matchNumber": 16,
+    "date": "2025-06-03T19:30:00.000Z",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "opponent": "Punjab Kings",
+    "homeAway": "neutral",
+    "matchType": "final",
+    "result": "RCB WON IPL 2025 - CHAMPIONS! 🏆",
+    "ourScore": {
+      "runs": 190,
+      "wickets": 9,
+      "overs": "20.0"
+    },
+    "theirScore": {
+      "runs": 184,
+      "wickets": 7,
+      "overs": "20.0"
+    },
+    "status": "completed",
+    "highlights": "🏆 HISTORIC! RCB wins maiden IPL title! Virat Kohli 68, Rajat Patidar 52. Bhuvneshwar Kumar 3/36. EE SALA CUP NAMDE!",
+    "topPerformers": [
+      { "name": "Virat Kohli", "performance": "68 (48)" },
+      { "name": "Rajat Patidar", "performance": "52 (34)" },
+      { "name": "Bhuvneshwar Kumar", "performance": "3/36" }
+    ],
+    "sourceUrl": "https://www.espncricinfo.com/series/ipl-2025/final-rcb-vs-pbks",
+    "season": "2025",
+    "isFinal": true,
+    "isChampionship": true,
+    "specialNote": "RCB's maiden IPL title - First championship in franchise history!"
+  }
+]

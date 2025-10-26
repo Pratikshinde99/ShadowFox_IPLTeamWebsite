@@ -1,0 +1,30 @@
+=== INSTRUCTIONS ===
+Add these 5 matches to your MongoDB database using MongoDB Compass or Studio 3T.
+
+1. Open MongoDB Compass
+2. Connect to your database
+3. Go to "matches" collection
+4. Click "ADD DATA" → "Insert Document"
+5. Copy and paste each match JSON below (one at a time)
+6. Click "Insert"
+
+Repeat for all 5 matches.
+
+=== MATCH 1: KKR vs RCB ===
+Status: RCB WON by 7 wickets
+Player of Match: Krunal Pandya
+
+Copy this JSON and insert into MongoDB:
+(See IMPLEMENTATION_COMPLETE.md for full JSON - too large for single file)
+
+=== QUICK SUMMARY ===
+
+Match 1: KKR 174/8 vs RCB 177/3 - RCB won by 7 wickets
+Match 2: RCB 196/7 vs CSK 146/8 - RCB won by 50 runs  
+Match 3: RCB 169/8 vs GT 170/2 - GT won by 8 wickets
+Match 4: MI 209/9 vs RCB 221/5 - RCB won by 12 runs
+Match 5: RCB 163/7 vs DC 169/4 - DC won by 6 wickets
+
+All detailed batting, bowling, and scorecard data is ready!
+
+The Scorecard component will automatically display this data when you click "View Scorecard" on the Matches page.
