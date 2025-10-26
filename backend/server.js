@@ -10,9 +10,11 @@ dotenv.config();
 if (!process.env.MONGODB_URI) {
   console.error('❌ FATAL ERROR: MONGODB_URI is not defined in environment variables');
   console.error('Please set MONGODB_URI in your deployment platform or .env file');
-  if (process.env.NODE_ENV !== 'production') {
-    process.exit(1);
-  }
+  console.error('Environment check:', {
+    NODE_ENV: process.env.NODE_ENV,
+    PORT: process.env.PORT,
+    HAS_MONGODB_URI: !!process.env.MONGODB_URI
+  });
 }
 
 const app = express();
@@ -53,19 +55,26 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // MongoDB Connection with better error handling
-mongoose.connect(process.env.MONGODB_URI, {
-  serverSelectionTimeoutMS: 5000,
-  socketTimeoutMS: 45000,
-})
-.then(() => {
-  console.log('✅ MongoDB Connected Successfully');
-  console.log(`📊 Database: ${mongoose.connection.name}`);
-})
-.catch((err) => {
-  console.error('❌ MongoDB Connection Error:', err.message);
-  console.error('Check your MONGODB_URI and network connection');
-  process.exit(1);
-});
+if (process.env.MONGODB_URI) {
+  mongoose.connect(process.env.MONGODB_URI, {
+    serverSelectionTimeoutMS: 5000,
+    socketTimeoutMS: 45000,
+  })
+  .then(() => {
+    console.log('✅ MongoDB Connected Successfully');
+    console.log(`📊 Database: ${mongoose.connection.name}`);
+  })
+  .catch((err) => {
+    console.error('❌ MongoDB Connection Error:', err.message);
+    console.error('Check your MONGODB_URI and network connection');
+    if (process.env.NODE_ENV !== 'production') {
+      process.exit(1);
+    }
+  });
+} else {
+  console.warn('⚠️ WARNING: MongoDB connection skipped - MONGODB_URI not set');
+  console.warn('The API will start but database operations will fail');
+}
 
 // Import Routes
 const playerRoutes = require('./routes/players');

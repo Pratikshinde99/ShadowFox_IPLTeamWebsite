@@ -10,12 +10,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: MONGODB_URI
-        sync: false
+        value: mongodb+srv://Pratik:Pratik9890@cluster0.ezqyayl.mongodb.net/rcb_universe?retryWrites=true&w=majority&appName=Cluster0
       - key: PORT
         value: 5000
-      - key: EMAIL_USER
-        sync: false
-      - key: EMAIL_PASS
-        sync: false
-      - key: CRICKET_API_KEY
-        sync: false
