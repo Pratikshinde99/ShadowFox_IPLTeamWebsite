@@ -98,13 +98,19 @@ const PlayerDetail = () => {
 
   const fetchPlayerDetails = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/players/${id}`);
+      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+      const response = await fetch(`${API_URL}/players/${id}`);
       const data = await response.json();
       if (data.success) {
         setPlayer(data.data);
+      } else {
+        // If no data from API, use mock data
+        setPlayer(getMockPlayerData());
       }
     } catch (error) {
       console.error('Error fetching player details:', error);
+      // Fallback to mock data on error
+      setPlayer(getMockPlayerData());
     } finally {
       setLoading(false);
     }

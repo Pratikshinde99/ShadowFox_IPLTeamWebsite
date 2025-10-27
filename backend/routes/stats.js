@@ -9,17 +9,27 @@ router.get('/team', async (req, res) => {
     // Get all matches (IPL 2025)
     const matches = await Match.find({});
     const totalMatches = matches.length;
+    
+    // Separate league and playoff matches
+    const leagueMatches = matches.filter(m => m.matchType === 'league');
+    const playoffMatches = matches.filter(m => m.matchType === 'playoff' || m.isFinal);
+    
     const completedMatches = matches.filter(m => m.status === 'completed');
     const abandonedMatches = matches.filter(m => m.status === 'abandoned');
     
+    const completedLeague = leagueMatches.filter(m => m.status === 'completed');
+    const completedPlayoffs = playoffMatches.filter(m => m.status === 'completed');
+    
     // Count wins (check if result contains "RCB won" or "Royal Challengers Bengaluru won")
-    const wins = completedMatches.filter(m => 
-      m.result && (
-        m.result.toLowerCase().includes('rcb won') || 
-        m.result.toLowerCase().includes('royal challengers bengaluru won') ||
-        m.result.toLowerCase().includes('royal challengers') && m.result.toLowerCase().includes('won')
-      )
-    ).length;
+    const isWin = (m) => m.result && (
+      m.result.toLowerCase().includes('rcb won') || 
+      m.result.toLowerCase().includes('royal challengers bengaluru won') ||
+      (m.result.toLowerCase().includes('royal challengers') && m.result.toLowerCase().includes('won'))
+    );
+    
+    const leagueWins = completedLeague.filter(isWin).length;
+    const playoffWins = completedPlayoffs.filter(isWin).length;
+    const totalWins = leagueWins + playoffWins;
     
     const losses = completedMatches.filter(m => 
       m.result && 
@@ -30,7 +40,7 @@ router.get('/team', async (req, res) => {
     ).length;
     
     const winPercentage = completedMatches.length > 0 
-      ? ((wins / completedMatches.length) * 100) 
+      ? ((totalWins / completedMatches.length) * 100) 
       : 0;
     
     // Calculate Net Run Rate
@@ -65,20 +75,26 @@ router.get('/team', async (req, res) => {
       ? ((totalRunsScored / totalOversPlayed) - (totalRunsConceded / totalOversFaced))
       : 0;
     
-    // Points: 2 per win, 1 per abandoned match
-    const points = (wins * 2) + abandonedMatches.length;
+    // Points: 2 per win, 1 per abandoned match (only league stage)
+    const points = (leagueWins * 2) + abandonedMatches.length;
     
     const stats = {
       season: '2025',
       totalMatches,
       played: completedMatches.length,
-      wins,
+      wins: totalWins,
       losses,
       abandoned: abandonedMatches.length,
       winPercentage: parseFloat(winPercentage.toFixed(1)),
       points,
       nrr: parseFloat(nrr.toFixed(3)),
-      upcomingMatches: matches.filter(m => m.status === 'upcoming').length
+      upcomingMatches: matches.filter(m => m.status === 'upcoming').length,
+      // Breakdown
+      leagueMatches: leagueMatches.length,
+      leagueWins,
+      playoffMatches: playoffMatches.length,
+      playoffWins,
+      isChampion: playoffWins === 2 // Won both playoff matches
     };
     
     res.json({ success: true, data: stats });
