@@ -1,58 +1,110 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Trophy, TrendingUp, Target, Award } from 'lucide-react';
+import { getMatchDetails } from '../services/api';
 
 const Scorecard = ({ match, isOpen, onClose }) => {
+  const [detailedMatch, setDetailedMatch] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    if (isOpen && match && match.matchId) {
+      setLoading(true);
+      setError(null); // Reset error state
+      
+      getMatchDetails(match.matchId)
+        .then(response => {
+          if (response.success) {
+            setDetailedMatch(response.data);
+          } else {
+            setError('Failed to load match details');
+          }
+        })
+        .catch(err => {
+          console.error('Error fetching match details:', err);
+          setError('Error loading match details');
+        })
+        .finally(() => {
+          setLoading(false);
+        });
+    }
+  }, [isOpen, match]);
+
   if (!match) return null;
 
-  // Sample detailed scorecard data structure
+  // Use detailed match data if available, otherwise use the basic match data
+  const currentMatch = detailedMatch || match;
+
+  // Get detailed scorecard data from match object
   const getDetailedScorecard = () => {
-    // This would come from your backend in production
+    // Process batting data to handle notOut field
+    const processBattingData = (battingData) => {
+      if (!battingData || !Array.isArray(battingData)) return [];
+      return battingData.map(batsman => {
+        // Handle notOut status correctly
+        const out = batsman.notOut ? 'not out' : (batsman.out || 'unknown');
+        // Ensure strikeRate is a number before formatting
+        const strikeRate = typeof batsman.strikeRate === 'number' ? 
+          batsman.strikeRate.toFixed(2) : '0.00';
+        
+        return {
+          ...batsman,
+          out,
+          strikeRate
+        };
+      });
+    };
+
+    // Create extras object with defaults
+    const createExtras = (extrasData) => {
+      return {
+        wides: extrasData?.wides || 0,
+        noBalls: extrasData?.noBalls || 0,
+        legByes: extrasData?.legByes || 0,
+        byes: extrasData?.byes || 0,
+        total: extrasData?.total || 0
+      };
+    };
+
+    // Process bowling data to handle economy
+    const processBowlingData = (bowlingData) => {
+      if (!bowlingData || !Array.isArray(bowlingData)) return [];
+      return bowlingData.map(bowler => {
+        // Ensure economy is a number before formatting
+        const economy = typeof bowler.economy === 'number' ? 
+          bowler.economy.toFixed(2) : '0.00';
+        
+        return {
+          ...bowler,
+          economy
+        };
+      });
+    };
+
     return {
-      tossWinner: match.tossWinner || 'RCB',
-      tossDecision: match.tossDecision || 'bat',
+      tossWinner: currentMatch.tossWinner || 'Unknown',
+      tossDecision: currentMatch.tossDecision || 'Unknown',
+      playerOfMatch: currentMatch.playerOfMatch || 'TBA',
+      umpires: currentMatch.umpires || [],
+      thirdUmpire: currentMatch.thirdUmpire || 'TBA',
+      matchReferee: currentMatch.matchReferee || 'TBA',
       innings: [
         {
           team: 'RCB',
-          batting: match.rcbBatting || [
-            { name: 'Virat Kohli', runs: 45, balls: 32, fours: 4, sixes: 2, strikeRate: 140.62, out: 'c Smith b Johnson' },
-            { name: 'Faf du Plessis', runs: 38, balls: 28, fours: 5, sixes: 1, strikeRate: 135.71, out: 'b Rashid' },
-            { name: 'Glenn Maxwell', runs: 52, balls: 25, fours: 3, sixes: 4, strikeRate: 208.00, out: 'not out' },
-            { name: 'Rajat Patidar', runs: 28, balls: 18, fours: 2, sixes: 2, strikeRate: 155.55, out: 'run out' },
-            { name: 'Dinesh Karthik', runs: 15, balls: 8, fours: 1, sixes: 1, strikeRate: 187.50, out: 'not out' }
-          ],
-          bowling: match.opponentBowling || [
-            { name: 'Rashid Khan', overs: 4, maidens: 0, runs: 28, wickets: 2, economy: 7.00 },
-            { name: 'Mitchell Johnson', overs: 4, maidens: 0, runs: 35, wickets: 1, economy: 8.75 },
-            { name: 'Pat Cummins', overs: 4, maidens: 0, runs: 42, wickets: 0, economy: 10.50 },
-            { name: 'Ravindra Jadeja', overs: 4, maidens: 0, runs: 32, wickets: 1, economy: 8.00 }
-          ],
-          total: match.scores?.rcb || { runs: 178, wickets: 4, overs: '20.0' },
-          extras: { wides: 5, noBalls: 3, legByes: 2, byes: 1, total: 11 }
+          batting: processBattingData(currentMatch.rcbBatting || []),
+          bowling: processBowlingData(currentMatch.rcbBowling || []),
+          total: currentMatch.scores?.rcb || { runs: 0, wickets: 0, overs: '0.0' },
+          extras: createExtras(currentMatch.rcbExtras)
         },
         {
-          team: match.opponent,
-          batting: match.opponentBatting || [
-            { name: 'Player 1', runs: 32, balls: 28, fours: 3, sixes: 1, strikeRate: 114.28, out: 'b Siraj' },
-            { name: 'Player 2', runs: 45, balls: 35, fours: 4, sixes: 2, strikeRate: 128.57, out: 'c Maxwell b Hasaranga' },
-            { name: 'Player 3', runs: 28, balls: 22, fours: 2, sixes: 1, strikeRate: 127.27, out: 'lbw b Harshal' },
-            { name: 'Player 4', runs: 18, balls: 15, fours: 1, sixes: 1, strikeRate: 120.00, out: 'c Kohli b Siraj' },
-            { name: 'Player 5', runs: 12, balls: 10, fours: 1, sixes: 0, strikeRate: 120.00, out: 'b Hasaranga' }
-          ],
-          bowling: match.rcbBowling || [
-            { name: 'Mohammed Siraj', overs: 4, maidens: 0, runs: 25, wickets: 2, economy: 6.25 },
-            { name: 'Wanindu Hasaranga', overs: 4, maidens: 0, runs: 28, wickets: 2, economy: 7.00 },
-            { name: 'Harshal Patel', overs: 4, maidens: 0, runs: 32, wickets: 1, economy: 8.00 },
-            { name: 'Glenn Maxwell', overs: 4, maidens: 0, runs: 30, wickets: 0, economy: 7.50 }
-          ],
-          total: match.scores?.opponent || { runs: 165, wickets: 8, overs: '20.0' },
-          extras: { wides: 4, noBalls: 2, legByes: 3, byes: 2, total: 11 }
+          team: currentMatch.opponent || 'Opponent',
+          batting: processBattingData(currentMatch.opponentBatting || []),
+          bowling: processBowlingData(currentMatch.opponentBowling || []),
+          total: currentMatch.scores?.opponent || { runs: 0, wickets: 0, overs: '0.0' },
+          extras: createExtras(currentMatch.opponentExtras)
         }
-      ],
-      playerOfMatch: match.playerOfMatch || 'Glenn Maxwell',
-      umpires: match.umpires || ['Nitin Menon', 'K Ananthapadmanabhan'],
-      thirdUmpire: match.thirdUmpire || 'Anil Chaudhary',
-      matchReferee: match.matchReferee || 'Javagal Srinath'
+      ]
     };
   };
 
@@ -79,6 +131,8 @@ const Scorecard = ({ match, isOpen, onClose }) => {
             className="fixed inset-4 md:inset-8 lg:inset-16 z-50 overflow-hidden"
           >
             <div className="h-full bg-gradient-to-br from-rcb-black via-rcb-red/10 to-rcb-black border-2 border-rcb-red/30 rounded-2xl shadow-2xl flex flex-col">
+
+
               {/* Header */}
               <div className="bg-rcb-red/20 border-b-2 border-rcb-gold/30 p-6">
                 <div className="flex justify-between items-start">
@@ -125,8 +179,22 @@ const Scorecard = ({ match, isOpen, onClose }) => {
 
               {/* Scrollable Content */}
               <div className="flex-1 overflow-y-auto p-6 space-y-8">
-                {/* Innings */}
-                {scorecard.innings.map((innings, inningsIndex) => (
+                {loading ? (
+                  <div className="flex items-center justify-center h-full">
+                    <div className="loading-spinner"></div>
+                    <p className="ml-3 text-white">Loading detailed scorecard...</p>
+                  </div>
+                ) : error ? (
+                  <div className="text-center py-12">
+                    <p className="text-red-400 text-xl mb-4">{error}</p>
+                    <p className="text-gray-400">Unable to load detailed match data. Please try again later.</p>
+                  </div>
+                ) : (
+                  <>
+                    {/* Innings */}
+                    {scorecard.innings.map((innings, inningsIndex) => (
+
+
                   <div key={inningsIndex} className="space-y-4">
                     {/* Innings Header */}
                     <div className="flex items-center justify-between bg-rcb-red/20 p-4 rounded-lg border border-rcb-red/30">
@@ -169,7 +237,7 @@ const Scorecard = ({ match, isOpen, onClose }) => {
                                 <td className="px-4 py-3 text-center text-gray-300">{batsman.balls}</td>
                                 <td className="px-4 py-3 text-center text-gray-300">{batsman.fours}</td>
                                 <td className="px-4 py-3 text-center text-gray-300">{batsman.sixes}</td>
-                                <td className="px-4 py-3 text-center text-gray-300">{batsman.strikeRate.toFixed(2)}</td>
+                                <td className="px-4 py-3 text-center text-gray-300">{typeof batsman.strikeRate === 'number' ? batsman.strikeRate.toFixed(2) : '0.00'}</td>
                                 <td className="px-4 py-3 text-gray-400 text-sm">{batsman.out}</td>
                               </tr>
                             ))}
@@ -192,7 +260,7 @@ const Scorecard = ({ match, isOpen, onClose }) => {
                               <span>{batsman.balls}b</span>
                               <span>{batsman.fours}×4</span>
                               <span>{batsman.sixes}×6</span>
-                              <span>SR: {batsman.strikeRate.toFixed(2)}</span>
+                              <span>SR: {typeof batsman.strikeRate === 'number' ? batsman.strikeRate.toFixed(2) : '0.00'}</span>
                             </div>
                           </div>
                         ))}
@@ -201,9 +269,9 @@ const Scorecard = ({ match, isOpen, onClose }) => {
                       {/* Extras */}
                       <div className="px-4 py-3 bg-rcb-black/30 border-t border-rcb-red/20 text-sm">
                         <span className="text-gray-400">Extras: </span>
-                        <span className="text-white font-semibold">{innings.extras.total}</span>
+                        <span className="text-white font-semibold">{innings.extras?.total || 0}</span>
                         <span className="text-gray-500 ml-2">
-                          (wd {innings.extras.wides}, nb {innings.extras.noBalls}, lb {innings.extras.legByes}, b {innings.extras.byes})
+                          (wd {innings.extras?.wides || 0}, nb {innings.extras?.noBalls || 0}, lb {innings.extras?.legByes || 0}, b {innings.extras?.byes || 0})
                         </span>
                       </div>
                     </div>
@@ -235,7 +303,7 @@ const Scorecard = ({ match, isOpen, onClose }) => {
                                 <td className="px-4 py-3 text-center text-gray-300">{bowler.maidens}</td>
                                 <td className="px-4 py-3 text-center text-gray-300">{bowler.runs}</td>
                                 <td className="px-4 py-3 text-center text-rcb-gold font-bold">{bowler.wickets}</td>
-                                <td className="px-4 py-3 text-center text-gray-300">{bowler.economy.toFixed(2)}</td>
+                                <td className="px-4 py-3 text-center text-gray-300">{typeof bowler.economy === 'number' ? bowler.economy.toFixed(2) : '0.00'}</td>
                               </tr>
                             ))}
                           </tbody>
@@ -254,7 +322,7 @@ const Scorecard = ({ match, isOpen, onClose }) => {
                               <span>{bowler.overs}O</span>
                               <span>{bowler.maidens}M</span>
                               <span>{bowler.runs}R</span>
-                              <span>Econ: {bowler.economy.toFixed(2)}</span>
+                              <span>Econ: {typeof bowler.economy === 'number' ? bowler.economy.toFixed(2) : '0.00'}</span>
                             </div>
                           </div>
                         ))}
@@ -278,12 +346,14 @@ const Scorecard = ({ match, isOpen, onClose }) => {
                   <div className="bg-rcb-lightGray/50 border border-rcb-red/20 rounded-lg p-4">
                     <h4 className="font-bold text-white mb-3">Match Officials</h4>
                     <div className="space-y-1 text-sm text-gray-300">
-                      <div><span className="text-gray-500">Umpires:</span> {scorecard.umpires.join(', ')}</div>
-                      <div><span className="text-gray-500">Third Umpire:</span> {scorecard.thirdUmpire}</div>
-                      <div><span className="text-gray-500">Match Referee:</span> {scorecard.matchReferee}</div>
+                      <div><span className="text-gray-500">Umpires:</span> {scorecard.umpires && scorecard.umpires.length ? scorecard.umpires.join(', ') : 'TBA'}</div>
+                      <div><span className="text-gray-500">Third Umpire:</span> {scorecard.thirdUmpire || 'TBA'}</div>
+                      <div><span className="text-gray-500">Match Referee:</span> {scorecard.matchReferee || 'TBA'}</div>
                     </div>
                   </div>
                 </div>
+                  </>
+                )}
               </div>
             </div>
           </motion.div>

@@ -1,5 +1,10 @@
 import axios from 'axios';
 
+// Import seed data for fallback
+import mergedMatchesData from '../data/mergedMatchesData.json';
+import playerData from '../data/playerData.json';
+import iconicMomentsData from '../data/iconicMomentsData.json';
+
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 const api = axios.create({
@@ -38,6 +43,32 @@ export const getMatches = async (status = '', season = '2025') => {
   } catch (error) {
     console.error('Error fetching matches:', error);
     throw error;
+  }
+};
+
+// Get match details by matchId with fallback to local data
+export const getMatchDetails = async (matchId) => {
+  try {
+    const response = await api.get(`/matches/matchId/${matchId}`);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching match details from API, using local data:', error);
+    
+    // Use merged match data for fallback
+    const allMatches = mergedMatchesData;
+    
+    // Find match by ID or matchId
+    const match = allMatches.find(m => 
+      (m._id === matchId || m.matchId === matchId)
+    );
+    
+    if (match) {
+      console.log('Found match in local data:', match.matchNumber);
+      return { success: true, data: match };
+    } else {
+      console.error('Match not found in local data for ID:', matchId);
+      throw new Error('Match not found in local data');
+    }
   }
 };
 

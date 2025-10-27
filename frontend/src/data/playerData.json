@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "p001",
+    "name": "Virat Kohli",
+    "role": "Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "nationality": "Indian",
+    "jerseyNumber": 18,
+    "stats": {
+      "matches": 237,
+      "runs": 7263,
+      "highestScore": 113,
+      "average": 37.25,
+      "strikeRate": 130.02,
+      "centuries": 7,
+      "fifties": 50,
+      "wickets": 4,
+      "economy": 8.83
+    }
+  },
+  {
+    "_id": "p002",
+    "name": "Phil Salt",
+    "role": "Wicket-keeper Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "nationality": "English",
+    "jerseyNumber": 13,
+    "stats": {
+      "matches": 42,
+      "runs": 1245,
+      "highestScore": 88,
+      "average": 32.76,
+      "strikeRate": 142.15,
+      "centuries": 0,
+      "fifties": 10,
+      "wickets": 0,
+      "economy": 0
+    }
+  },
+  {
+    "_id": "p003",
+    "name": "Rajat Patidar",
+    "role": "Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "nationality": "Indian",
+    "jerseyNumber": 20,
+    "stats": {
+      "matches": 18,
+      "runs": 582,
+      "highestScore": 112,
+      "average": 34.24,
+      "strikeRate": 147.34,
+      "centuries": 1,
+      "fifties": 3,
+      "wickets": 0,
+      "economy": 0
+    }
+  }
+]

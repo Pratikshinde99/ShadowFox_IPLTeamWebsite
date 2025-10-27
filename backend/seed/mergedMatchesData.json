@@ -1,0 +1,113 @@
+[
+  {
+    "matchNumber": 1,
+    "matchId": "ipl2025-m1",
+    "opponent": "Kolkata Knight Riders",
+    "venue": "Eden Gardens, Kolkata",
+    "date": "2025-03-22T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 177, "wickets": 3, "overs": "16.2" },
+      "opponent": { "runs": 174, "wickets": 8, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 7 wickets",
+    "playerOfMatch": "Krunal Pandya",
+    "tossWinner": "Kolkata Knight Riders",
+    "tossDecision": "bat",
+    "rcbBatting": [
+      { "name": "Phil Salt", "runs": 56, "balls": 31, "fours": 9, "sixes": 2, "strikeRate": 180.65, "out": "c de Kock b Narine" },
+      { "name": "Virat Kohli", "runs": 59, "balls": 36, "fours": 4, "sixes": 3, "strikeRate": 163.89, "notOut": true },
+      { "name": "Devdutt Padikkal", "runs": 10, "balls": 10, "fours": 1, "sixes": 0, "strikeRate": 100.00, "out": "c Narine b Chakaravarthy" },
+      { "name": "Rajat Patidar (c)", "runs": 34, "balls": 16, "fours": 5, "sixes": 1, "strikeRate": 212.50, "out": "c Russell b Arora" },
+      { "name": "Liam Livingstone", "runs": 15, "balls": 5, "fours": 2, "sixes": 1, "strikeRate": 300.00, "notOut": true }
+    ],
+    "opponentBatting": [
+      { "name": "Quinton de Kock (wk)", "runs": 4, "balls": 5, "fours": 1, "sixes": 0, "strikeRate": 80.00, "out": "c Salt b Hazlewood" },
+      { "name": "Sunil Narine", "runs": 44, "balls": 26, "fours": 5, "sixes": 3, "strikeRate": 169.23, "out": "b Dayal" },
+      { "name": "Ajinkya Rahane (c)", "runs": 56, "balls": 31, "fours": 6, "sixes": 4, "strikeRate": 180.65, "out": "c Livingstone b Krunal" },
+      { "name": "Venkatesh Iyer", "runs": 6, "balls": 7, "fours": 1, "sixes": 0, "strikeRate": 85.71, "out": "c Patidar b Hazlewood" },
+      { "name": "Andre Russell", "runs": 32, "balls": 18, "fours": 2, "sixes": 3, "strikeRate": 177.78, "out": "c Kohli b Krunal" },
+      { "name": "Rinku Singh", "runs": 18, "balls": 14, "fours": 2, "sixes": 0, "strikeRate": 128.57, "out": "c Livingstone b Dayal" },
+      { "name": "Nitish Rana", "runs": 8, "balls": 11, "fours": 0, "sixes": 0, "strikeRate": 72.73, "out": "c Salt b Krunal" },
+      { "name": "Vaibhav Arora", "runs": 2, "balls": 5, "fours": 0, "sixes": 0, "strikeRate": 40.00, "out": "run out (Livingstone)" },
+      { "name": "Varun Chakaravarthy", "runs": 0, "balls": 3, "fours": 0, "sixes": 0, "strikeRate": 0.00, "notOut": true }
+    ],
+    "rcbBowling": [
+      { "name": "Josh Hazlewood", "overs": "4.0", "maidens": 0, "runs": 28, "wickets": 2, "economy": 7.00 },
+      { "name": "Yash Dayal", "overs": "4.0", "maidens": 0, "runs": 36, "wickets": 2, "economy": 9.00 },
+      { "name": "Krunal Pandya", "overs": "4.0", "maidens": 0, "runs": 24, "wickets": 3, "economy": 6.00 },
+      { "name": "Karn Sharma", "overs": "4.0", "maidens": 0, "runs": 42, "wickets": 0, "economy": 10.50 },
+      { "name": "Reece Topley", "overs": "4.0", "maidens": 0, "runs": 40, "wickets": 0, "economy": 10.00 }
+    ],
+    "opponentBowling": [
+      { "name": "Vaibhav Arora", "overs": "3.2", "maidens": 0, "runs": 38, "wickets": 1, "economy": 11.40 },
+      { "name": "Sunil Narine", "overs": "4.0", "maidens": 0, "runs": 32, "wickets": 1, "economy": 8.00 },
+      { "name": "Varun Chakaravarthy", "overs": "4.0", "maidens": 0, "runs": 36, "wickets": 1, "economy": 9.00 },
+      { "name": "Andre Russell", "overs": "3.0", "maidens": 0, "runs": 42, "wickets": 0, "economy": 14.00 },
+      { "name": "Venkatesh Iyer", "overs": "2.0", "maidens": 0, "runs": 26, "wickets": 0, "economy": 13.00 }
+    ],
+    "rcbExtras": { "byes": 2, "legByes": 3, "wides": 6, "noBalls": 1, "total": 12 },
+    "opponentExtras": { "byes": 1, "legByes": 2, "wides": 4, "noBalls": 0, "total": 7 },
+    "umpires": ["Nitin Menon", "Anil Chaudhary"],
+    "thirdUmpire": "Virender Sharma",
+    "matchReferee": "Javagal Srinath"
+  },
+  {
+    "matchNumber": 2,
+    "matchId": "ipl2025-m8",
+    "opponent": "Chennai Super Kings",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "2025-03-26T19:30:00.000Z",
+    "time": "19:30 IST",
+    "status": "completed",
+    "matchType": "league",
+    "scores": {
+      "rcb": { "runs": 205, "wickets": 5, "overs": "20.0" },
+      "opponent": { "runs": 186, "wickets": 8, "overs": "20.0" }
+    },
+    "result": "Royal Challengers Bengaluru won by 19 runs",
+    "playerOfMatch": "Virat Kohli",
+    "tossWinner": "Royal Challengers Bengaluru",
+    "tossDecision": "bat",
+    "rcbBatting": [
+      { "name": "Phil Salt", "runs": 32, "balls": 18, "fours": 4, "sixes": 2, "strikeRate": 177.78, "out": "c Jadeja b Pathirana" },
+      { "name": "Virat Kohli", "runs": 92, "balls": 54, "fours": 8, "sixes": 5, "strikeRate": 170.37, "out": "c Gaikwad b Jadeja" },
+      { "name": "Rajat Patidar (c)", "runs": 28, "balls": 20, "fours": 3, "sixes": 1, "strikeRate": 140.00, "out": "c Dube b Jadeja" },
+      { "name": "Liam Livingstone", "runs": 36, "balls": 18, "fours": 2, "sixes": 3, "strikeRate": 200.00, "out": "c Dhoni b Pathirana" },
+      { "name": "Mahipal Lomror", "runs": 12, "balls": 8, "fours": 1, "sixes": 1, "strikeRate": 150.00, "out": "c Gaikwad b Chahar" },
+      { "name": "Dinesh Karthik (wk)", "runs": 2, "balls": 2, "fours": 0, "sixes": 0, "strikeRate": 100.00, "notOut": true }
+    ],
+    "opponentBatting": [
+      { "name": "Ruturaj Gaikwad (c)", "runs": 45, "balls": 32, "fours": 5, "sixes": 2, "strikeRate": 140.63, "out": "c Karthik b Topley" },
+      { "name": "Devon Conway", "runs": 38, "balls": 24, "fours": 6, "sixes": 1, "strikeRate": 158.33, "out": "c Patidar b Krunal" },
+      { "name": "Moeen Ali", "runs": 12, "balls": 10, "fours": 1, "sixes": 1, "strikeRate": 120.00, "out": "c Kohli b Krunal" },
+      { "name": "Shivam Dube", "runs": 36, "balls": 22, "fours": 2, "sixes": 3, "strikeRate": 163.64, "out": "c Salt b Hazlewood" },
+      { "name": "Ravindra Jadeja", "runs": 24, "balls": 14, "fours": 3, "sixes": 1, "strikeRate": 171.43, "out": "c Livingstone b Dayal" },
+      { "name": "MS Dhoni (wk)", "runs": 18, "balls": 10, "fours": 1, "sixes": 1, "strikeRate": 180.00, "out": "c Karthik b Hazlewood" },
+      { "name": "Mitchell Santner", "runs": 8, "balls": 6, "fours": 1, "sixes": 0, "strikeRate": 133.33, "out": "c Kohli b Topley" },
+      { "name": "Deepak Chahar", "runs": 2, "balls": 2, "fours": 0, "sixes": 0, "strikeRate": 100.00, "out": "run out (Livingstone)" },
+      { "name": "Matheesha Pathirana", "runs": 0, "balls": 0, "fours": 0, "sixes": 0, "strikeRate": 0.00, "notOut": true }
+    ],
+    "rcbBowling": [
+      { "name": "Josh Hazlewood", "overs": "4.0", "maidens": 0, "runs": 34, "wickets": 2, "economy": 8.50 },
+      { "name": "Reece Topley", "overs": "4.0", "maidens": 0, "runs": 38, "wickets": 2, "economy": 9.50 },
+      { "name": "Krunal Pandya", "overs": "4.0", "maidens": 0, "runs": 32, "wickets": 2, "economy": 8.00 },
+      { "name": "Yash Dayal", "overs": "4.0", "maidens": 0, "runs": 42, "wickets": 1, "economy": 10.50 },
+      { "name": "Karn Sharma", "overs": "4.0", "maidens": 0, "runs": 36, "wickets": 0, "economy": 9.00 }
+    ],
+    "opponentBowling": [
+      { "name": "Deepak Chahar", "overs": "4.0", "maidens": 0, "runs": 42, "wickets": 1, "economy": 10.50 },
+      { "name": "Matheesha Pathirana", "overs": "4.0", "maidens": 0, "runs": 38, "wickets": 2, "economy": 9.50 },
+      { "name": "Ravindra Jadeja", "overs": "4.0", "maidens": 0, "runs": 36, "wickets": 2, "economy": 9.00 },
+      { "name": "Mitchell Santner", "overs": "4.0", "maidens": 0, "runs": 44, "wickets": 0, "economy": 11.00 },
+      { "name": "Moeen Ali", "overs": "4.0", "maidens": 0, "runs": 42, "wickets": 0, "economy": 10.50 }
+    ],
+    "rcbExtras": { "byes": 1, "legByes": 2, "wides": 5, "noBalls": 0, "total": 8 },
+    "opponentExtras": { "byes": 2, "legByes": 1, "wides": 3, "noBalls": 1, "total": 7 },
+    "umpires": ["Kumar Dharmasena", "Chris Gaffaney"],
+    "thirdUmpire": "Richard Illingworth",
+    "matchReferee": "Ranjan Madugalle"
+  }
+]

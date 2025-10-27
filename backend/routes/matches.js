@@ -53,7 +53,20 @@ router.get('/completed', async (req, res) => {
   }
 });
 
-// Get single match
+// Get match by matchId (custom field)
+router.get('/matchId/:matchId', async (req, res) => {
+  try {
+    const match = await Match.findOne({ matchId: req.params.matchId });
+    if (!match) {
+      return res.status(404).json({ success: false, error: 'Match not found' });
+    }
+    res.json({ success: true, data: match });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// Get single match by MongoDB _id
 router.get('/:id', async (req, res) => {
   try {
     const match = await Match.findById(req.params.id);

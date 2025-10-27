@@ -116,8 +116,8 @@ const Matches = () => {
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}
-                onClick={() => match.status === 'completed' && openScorecard(match)}
-                className={`glass-effect rounded-xl p-6 hover-glow ${match.status === 'completed' ? 'cursor-pointer' : ''}`}
+                onClick={() => (match.status === 'Completed' || match.status === 'completed') && openScorecard(match)}
+                className={`glass-effect rounded-xl p-6 hover-glow ${(match.status === 'Completed' || match.status === 'completed') ? 'cursor-pointer' : ''}`}
               >
                 <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                   {/* Match Info */}
@@ -193,7 +193,7 @@ const Matches = () => {
 
                   {/* Action Buttons */}
                   <div className="flex flex-col gap-2">
-                    {match.status === 'completed' && (
+                    {match.status === 'Completed' || match.status === 'completed' ? (
                       <button 
                         onClick={(e) => {
                           e.stopPropagation();
@@ -204,7 +204,7 @@ const Matches = () => {
                         <FileText size={20} />
                         View Scorecard
                       </button>
-                    )}
+                    ) : null}
                     {match.status === 'Live' && (
                       <button className="btn-primary flex items-center gap-2">
                         <TrendingUp size={20} />
