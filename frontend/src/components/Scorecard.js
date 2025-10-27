@@ -93,15 +93,15 @@ const Scorecard = ({ match, isOpen, onClose }) => {
         {
           team: 'RCB',
           batting: processBattingData(currentMatch.rcbBatting || []),
-          bowling: processBowlingData(currentMatch.rcbBowling || []),
-          total: currentMatch.scores?.rcb || { runs: 0, wickets: 0, overs: '0.0' },
+          bowling: processBowlingData(currentMatch.opponentBowling || []),
+          total: currentMatch.ourScore || { runs: 0, wickets: 0, overs: '0.0' },
           extras: createExtras(currentMatch.rcbExtras)
         },
         {
           team: currentMatch.opponent || 'Opponent',
           batting: processBattingData(currentMatch.opponentBatting || []),
-          bowling: processBowlingData(currentMatch.opponentBowling || []),
-          total: currentMatch.scores?.opponent || { runs: 0, wickets: 0, overs: '0.0' },
+          bowling: processBowlingData(currentMatch.rcbBowling || []),
+          total: currentMatch.theirScore || { runs: 0, wickets: 0, overs: '0.0' },
           extras: createExtras(currentMatch.opponentExtras)
         }
       ]
