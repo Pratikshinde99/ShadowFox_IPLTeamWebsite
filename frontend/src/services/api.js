@@ -2,8 +2,6 @@ import axios from 'axios';
 
 // Import seed data for fallback
 import mergedMatchesData from '../data/mergedMatchesData.json';
-import playerData from '../data/playerData.json';
-import iconicMomentsData from '../data/iconicMomentsData.json';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 

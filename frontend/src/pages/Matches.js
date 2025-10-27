@@ -52,10 +52,6 @@ const Matches = () => {
     return colors[status] || 'bg-gray-500';
   };
 
-  const getResultColor = (winner) => {
-    return winner === 'RCB' ? 'text-green-500' : 'text-red-500';
-  };
-
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">

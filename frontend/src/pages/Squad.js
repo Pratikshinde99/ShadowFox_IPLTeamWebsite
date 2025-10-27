@@ -50,16 +50,6 @@ const Squad = () => {
     setFilteredPlayers(filtered);
   }, [selectedRole, searchTerm, players]);
 
-  const getRoleColor = (role) => {
-    const colors = {
-      'Batsman': 'bg-blue-500',
-      'Bowler': 'bg-green-500',
-      'All-Rounder': 'bg-purple-500',
-      'Wicket-Keeper': 'bg-orange-500'
-    };
-    return colors[role] || 'bg-gray-500';
-  };
-
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Trophy, TrendingUp, Target, Award } from 'lucide-react';
+import { X, Trophy, Award } from 'lucide-react';
 import { getMatchDetails } from '../services/api';
 
 const Scorecard = ({ match, isOpen, onClose }) => {

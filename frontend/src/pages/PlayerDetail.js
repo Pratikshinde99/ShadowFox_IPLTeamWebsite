@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, TrendingUp, Award, Target, Trophy, Star, FileText, Calendar } from 'lucide-react';
+import { ArrowLeft, Award, Target, Trophy, Star, FileText, Calendar } from 'lucide-react';
 import Scorecard from '../components/Scorecard';
 
 const PlayerDetail = () => {
@@ -93,6 +93,7 @@ const PlayerDetail = () => {
 
   useEffect(() => {
     fetchPlayerDetails();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const fetchPlayerDetails = async () => {

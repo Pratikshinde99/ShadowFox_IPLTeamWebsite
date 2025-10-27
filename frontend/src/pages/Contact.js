@@ -316,15 +316,15 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-2">Follow Us</h4>
                   <div className="flex gap-2 mt-2">
-                    <a href="#" className="w-8 h-8 bg-rcb-red/20 hover:bg-rcb-red rounded-full flex items-center justify-center transition-colors">
+                    <button type="button" className="w-8 h-8 bg-rcb-red/20 hover:bg-rcb-red rounded-full flex items-center justify-center transition-colors">
                       <span className="text-sm">𝕏</span>
-                    </a>
-                    <a href="#" className="w-8 h-8 bg-rcb-red/20 hover:bg-rcb-red rounded-full flex items-center justify-center transition-colors">
+                    </button>
+                    <button type="button" className="w-8 h-8 bg-rcb-red/20 hover:bg-rcb-red rounded-full flex items-center justify-center transition-colors">
                       <span className="text-sm">📘</span>
-                    </a>
-                    <a href="#" className="w-8 h-8 bg-rcb-red/20 hover:bg-rcb-red rounded-full flex items-center justify-center transition-colors">
+                    </button>
+                    <button type="button" className="w-8 h-8 bg-rcb-red/20 hover:bg-rcb-red rounded-full flex items-center justify-center transition-colors">
                       <span className="text-sm">📷</span>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
