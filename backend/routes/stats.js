@@ -12,13 +12,21 @@ router.get('/team', async (req, res) => {
     const completedMatches = matches.filter(m => m.status === 'completed');
     const abandonedMatches = matches.filter(m => m.status === 'abandoned');
     
-    // Count wins (check if result contains "Royal Challengers Bengaluru won")
+    // Count wins (check if result contains "RCB won" or "Royal Challengers Bengaluru won")
     const wins = completedMatches.filter(m => 
-      m.result && m.result.toLowerCase().includes('royal challengers bengaluru won')
+      m.result && (
+        m.result.toLowerCase().includes('rcb won') || 
+        m.result.toLowerCase().includes('royal challengers bengaluru won') ||
+        m.result.toLowerCase().includes('royal challengers') && m.result.toLowerCase().includes('won')
+      )
     ).length;
     
     const losses = completedMatches.filter(m => 
-      m.result && !m.result.toLowerCase().includes('royal challengers bengaluru won') && !m.result.toLowerCase().includes('abandoned')
+      m.result && 
+      !m.result.toLowerCase().includes('rcb won') && 
+      !m.result.toLowerCase().includes('royal challengers bengaluru won') && 
+      !m.result.toLowerCase().includes('abandoned') &&
+      !m.result.toLowerCase().includes('no result')
     ).length;
     
     const winPercentage = completedMatches.length > 0 
@@ -32,13 +40,21 @@ router.get('/team', async (req, res) => {
     let totalOversFaced = 0;
     
     completedMatches.forEach(match => {
-      if (match.scores?.rcb && match.scores?.opponent) {
-        totalRunsScored += match.scores.rcb.runs || 0;
-        totalRunsConceded += match.scores.opponent.runs || 0;
+      if (match.ourScore && match.theirScore) {
+        totalRunsScored += match.ourScore.runs || 0;
+        totalRunsConceded += match.theirScore.runs || 0;
         
-        // Convert overs string to number (e.g., "20.0" to 20)
-        const rcbOvers = parseFloat(match.scores.rcb.overs) || 20;
-        const oppOvers = parseFloat(match.scores.opponent.overs) || 20;
+        // Convert overs string to number (e.g., "20.0" to 20, "18.4" to 18.67)
+        const parseOvers = (oversStr) => {
+          if (!oversStr) return 20;
+          const parts = String(oversStr).split('.');
+          const overs = parseInt(parts[0]) || 0;
+          const balls = parseInt(parts[1]) || 0;
+          return overs + (balls / 6);
+        };
+        
+        const rcbOvers = parseOvers(match.ourScore.overs);
+        const oppOvers = parseOvers(match.theirScore.overs);
         
         totalOversPlayed += rcbOvers;
         totalOversFaced += oppOvers;
